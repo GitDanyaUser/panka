@@ -1,4 +1,3 @@
-import hello
 print("Hello, World!")
 
 def somefunc(x: int) -> list[str]:
