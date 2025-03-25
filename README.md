@@ -1,7 +1,7 @@
-# panka
+# pyste
 
 ## Info
-Welcome to the panka repository! This project is currently under construction and serves as a test project. The goal is to develop a small, yet powerful Text User Interface (TUI) engine in Python.
+Welcome to the pyste repository! This project is currently under construction and serves as a test project. The goal is to develop a small, yet powerful Text User Interface (TUI) engine in Python.
 
 ## Future Goals
 - **TUI Engine**: The main purpose of this project is to create a TUI engine that allows developers to easily build text-based user interfaces.
