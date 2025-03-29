@@ -3,7 +3,7 @@ from uuid import uuid4
 import logging
 from datetime import datetime
 
-log_dir = '../logs'
+log_dir = 'logs'
 if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 

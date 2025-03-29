@@ -5,7 +5,7 @@ from libs import log
 
 class Pyste:
     """
-    A simple powerful TUI engine
+    A simple yet powerful TUI engine
     """
     def __init__(self, stdscr, cursor_display: bool=False):
         self.stdscr = stdscr
@@ -13,6 +13,7 @@ class Pyste:
         curses.curs_set(cursor_displayshow)
         self.stdscr.keypad(True)
         self.stdscr.timeout(100)
+        log.logit("Loaded Pyste", "info")
 
     def clear(self):
         self.stdscr.clear()
@@ -50,6 +51,7 @@ class Pyste:
             self.print(5, 5, f'Input: {inpot}')
             self.refresh()
             inpot = self.char_handle()
+            log.logit(f"Pressed character: {inpot}", "info")
 
 def example_in_source(stdscr):
     tui: Pyste = Pyste(stdscr)
