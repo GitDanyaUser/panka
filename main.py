@@ -23,6 +23,9 @@ class Pyste:
 
     def print(self, y, x, text):
         self.stdscr.addstr(y, x, text)
+    
+    def button(self, text: None | str):
+        pass # Under Construction
 
     def char_handle(self, w: None | str=None, a: None | str=None, s: None | str=None, d: None | str=None, quit: int | str=curses.KEY_EXIT) -> str | None:
         try:
